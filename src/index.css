@@ -35,3 +35,10 @@ body {
     font-weight: bold;
     color: grey;
 }
+
+
+@media (max-width: 426px) {
+    .microphone-icon {
+      display: none;
+    }
+  }

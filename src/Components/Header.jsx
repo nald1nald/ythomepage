@@ -4,6 +4,7 @@ import { BsList, BsPersonCircle, BsThreeDotsVertical} from 'react-icons/bs';
 import { BiSolidMicrophone } from 'react-icons/bi'
 import { FaYoutube } from 'react-icons/fa';
 import { PiMagnifyingGlassLight } from 'react-icons/pi';
+import '../index.css'
 
 function Header({ onToggleSideNav }) {
   const [sideNavOpen, setSideNavOpen] = useState(false);
@@ -34,7 +35,7 @@ function Header({ onToggleSideNav }) {
           placeholder="Search"
           style={{minWidth:'20vw', width: '40vw' }}
         />
-        <BiSolidMicrophone className='fs-4 ms-3'/>
+        <BiSolidMicrophone className='fs-4 ms-3 microphone-icon'/>
         <span className="position-absolute end-0 top-0 mt-1 me-5">
           <PiMagnifyingGlassLight style={{ fontSize: '2em', color: '#cccc', borderLeftStyle: '1px solid grey'}} />
         </span>
@@ -44,7 +45,7 @@ function Header({ onToggleSideNav }) {
 
       <div className="d-flex align-items-center">
         <BsThreeDotsVertical className="me-2" style={{ fontSize: '1.4em' }} />
-        <Button className="rounded-pill bg-white border-primary text-primary" style={{ fontSize: '2vh' }}>
+        <Button className="rounded-pill bg-white border-light shadow-sm text-primary" style={{fontSize: '10px'}}>
           <BsPersonCircle className="me-2" style={{ fontSize: '1.3em' }} />
           Sign in
         </Button>

@@ -48,9 +48,9 @@ function SideNav({ isOpen }) {
 
       <hr />
 
-      <div className="d-flex flex-column align-items-start p-0 text-black hover-bg">
+      <div className="d-flex flex-column align-items-start p-0 text-black">
         <p className="fs-6">Sign in to like videos, comment, and subscribe.</p>
-        <Button className="rounded-pill bg-white border-light text-primary fs-6">
+        <Button className="rounded-pill bg-white border-light text-primary fs-6 shadow-md ">
           <BsPersonCircle className="me-2 fs-5" />Sign in
         </Button>
       </div>

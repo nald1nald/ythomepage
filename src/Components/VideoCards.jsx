@@ -9,7 +9,7 @@ function VideoCards({ thumbnail, title, channelName, channelIcon, views }) {
       
       <div className="d-flex mb-2">
           <div className="rounded-circle overflow-hidden me-2" style={{ width: '40px', height: '35px' }}>
-            <img src={channelIcon} alt="Channel Icon" style={{ width: '100%', height: '100%' }} />
+            <img src={channelIcon} alt="Channel Icon" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
           <div className=''> 
             <Card.Title className='mb-0 fs-6'>{title}</Card.Title>
