@@ -8,12 +8,12 @@ function SideNav2() {
     <aside className=' d-flex flex-column bg-white' style={{ height: '100vh'}}>
         <div className='mt-3'>
             <GoHome className='me-2 ms-3' style={{fontSize: '1.47em'}}/> 
-            <p className='ms-3' style={{fontSize: '0.8em'}}>Home</p>
+            <p className='ms-2' style={{fontSize: '0.8em'}}>Home</p>
         </div>
 
         <div className='mt-3'>
             <img src={Shorts} alt="ytShorticon" className='me-2 ms-3' style={{width: '1.47em'}}/> 
-            <p className='ms-3' style={{fontSize: '0.8em'}}>Shorts</p>
+            <p className='ms-2' style={{fontSize: '0.8em'}}>Shorts</p>
         </div>
 
         <div className='mt-3'>
@@ -23,12 +23,12 @@ function SideNav2() {
 
         <div className='mt-3'>
             <MdOutlineVideoLibrary className='me-2 ms-3' style={{fontSize: '1.47em'}}/> 
-            <p className='ms-3' style={{fontSize: '0.8em'}}>Library</p>
+            <p className='ms-2' style={{fontSize: '0.8em'}}>Library</p>
         </div>
 
         <div className='mt-3'>
             <GoHistory className='me-2 ms-3' style={{fontSize: '1.47em'}}/> 
-            <p className='ms-3' style={{fontSize: '0.8em'}}>History</p>
+            <p className='ms-2' style={{fontSize: '0.8em'}}>History</p>
         </div>
 </aside>
   )

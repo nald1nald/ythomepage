@@ -21,7 +21,7 @@ function SideNav({ isOpen }) {
   return (
     <aside
       className="scroll-bar m-3 d-flex flex-column bg-white lg"
-      style={{ width: '20%', overflow: 'scroll', height: '90vh' }}
+      style={{ width: '25%', overflow: 'scroll', height: '90vh', zIndex: '1' }}
     >
     <Nav className="flex-column ms-0">
       <Nav.Link className="mb-4 p-0 text-black hover-bg" active>
